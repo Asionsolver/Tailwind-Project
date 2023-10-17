@@ -17,3 +17,22 @@
     @apply font-roboto;
   }
 }
+
+@layer components {
+  .size-selector input:checked + label {
+    @apply bg-primary text-white;
+  }
+
+  .blueviolet-color-selector input:checked + label {
+    @apply ring-2 ring-blue-violet;
+  }
+  .white-color-selector input:checked + label {
+    @apply ring-2 ring-gray-300;
+  }
+  .black-color-selector input:checked + label {
+    @apply ring-2 ring-black;
+  }
+  .primary-color-selector input:checked + label {
+    @apply ring-2 ring-primary;
+  }
+}

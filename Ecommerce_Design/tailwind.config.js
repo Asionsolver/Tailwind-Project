@@ -19,6 +19,7 @@ module.exports = {
       },
       colors:{
         'primary' : '#fd3d57 ',
+        'blue-violet': '#8a2be2'
       }
     },
     variants:{
@@ -26,6 +27,8 @@ module.exports = {
       visibility:['group-hover'],
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/forms'),
+  ],
 }
 
