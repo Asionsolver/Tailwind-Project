@@ -843,6 +843,10 @@ h1,
   grid-column: span 2 / span 2;
 }
 
+.col-span-3{
+  grid-column: span 3 / span 3;
+}
+
 .mx-3{
   margin-left: 0.75rem;
   margin-right: 0.75rem;
@@ -933,6 +937,10 @@ h1,
   height: 2rem;
 }
 
+.h-9{
+  height: 2.25rem;
+}
+
 .w-10\/12{
   width: 83.333333%;
 }
@@ -959,6 +967,14 @@ h1,
 
 .w-full{
   width: 100%;
+}
+
+.w-44{
+  width: 11rem;
+}
+
+.w-10{
+  width: 2.5rem;
 }
 
 .max-w-xl{
@@ -1488,6 +1504,11 @@ h1,
   --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
   --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(0px + var(--tw-ring-offset-width)) var(--tw-ring-color);
   box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+}
+
+.focus\:ring-primary:focus{
+  --tw-ring-opacity: 1;
+  --tw-ring-color: rgb(253 61 87 / var(--tw-ring-opacity));
 }
 
 .group:hover .group-hover\:visible{
