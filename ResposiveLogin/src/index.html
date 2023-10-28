@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../dist/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <section class="bg-gray-100 min-h-screen flex items-center justify-center">
+        <!-- Login container Start -->
+        <div class="bg-cyan-100 flex rounded-2xl shadow-lg max-w-3xl p-5 items-center">
+            <!-- Form start -->
+            <div class="md:w-1/2 px-16">
+                <h2 class="font-bold text-2xl text-[#002d74]">Login</h2>
+                <p class="text-sm mt-4 text-[#002d74]">If you already a member, easily log in</p>
+                <form class="flex flex-col gap-4">
+                    <input class="p-2 mt-8 rounded-xl border" type="text" name="email" id="email" placeholder="Email">
+                    <div class="relative">
+                        <input class="p-2 rounded-xl border w-full" type="password" name="password" id="password"
+                            placeholder="Password">
+                        <i class="fa-regular fa-eye absolute top-1/2 right-3 -translate-y-1/2 text-gray-400"></i>
+                    </div>
+                    <button class="bg-[#002d74] rounded-xl text-white py-2 hover:scale-105 duration-300">Login</button>
+                </form>
+
+                <div class="mt-10 grid grid-cols-3 items-center text-gray-400">
+                    <hr class="border-gray-400">
+                    <p class="text-center text-sm">OR</p>
+                    <hr class="border-gray-400">
+                </div>
+
+                <button
+                    class="bg-white border py-2 w-full rounded-xl mt-5 flex justify-center items-center text-sm hover:scale-105 duration-300">
+                    <img class="w-6 mr-3 " src="../img/icons/icons8-google-logo-48.svg" alt="" srcset="">Login with
+                    Google</button>
+
+                <p class="mt-5 text-xs border-b py-4 border-gray-400">Forgot your password?</p>
+                <div class="mt-3 text-xs flex justify-between items-center">
+                    <p>Don't have an account?</p>
+                    <button class="py-2 px-5 bg-white border rounded-xl hover:scale-110 duration-300">Register</button>
+                </div>
+            </div>
+            <!-- Form end -->
+
+            <!-- Image start -->
+            <div class="w-1/2 p-5 md:block hidden ">
+                <img class="rounded-2xl " src="../img/img-1.avif" alt="login">
+            </div>
+            <!-- Image end -->
+        </div>
+        <!-- Login container End -->
+    </section>
+</body>
+
+</html>
