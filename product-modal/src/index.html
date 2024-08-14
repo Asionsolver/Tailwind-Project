@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Modal</title>
+    <link href="./output.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Global Container -->
+    <div class="flex justify-center items-center bg-slate-100 min-h-screen">
+      <!-- Card Container -->
+      <div
+        class="flex flex-col p-6 m-3 bg-white space-y-10 rounded-2xl shadow-2xl md:flex-row md:space-x-10 md:space-y-0 md:m-0 md:p-10"
+      >
+        <!-- Image div -->
+        <div>
+          <img
+            src="image/headphone.png"
+            alt="image"
+            class="mx-auto w-60 hover:scale-105 duration-200"
+          />
+        </div>
+
+        <!-- Content Container -->
+        <div class="flext flex-col space-y-4">
+          <!-- Label & Description Container -->
+          <div class="max-w-sm space-y-2">
+            <div
+              class="px-3 py-1 bg-black text-xs inline-block rounded-full text-white"
+            >
+              Free shipping
+            </div>
+            <div
+              class="px-3 py-1 bg-pink-500 text-xs inline-block rounded-full text-white"
+            >
+              Exclusive
+            </div>
+            <div
+              class="px-3 py-1 bg-green-500 text-xs inline-block rounded-full text-white"
+            >
+              Comfortable
+            </div>
+            <div
+              class="px-3 py-1 bg-amber-500 text-xs inline-block rounded-full text-white"
+            >
+              Premium
+            </div>
+            <div
+              class="px-3 py-1 bg-violet-500 text-xs inline-block rounded-full text-white"
+            >
+              Headset
+            </div>
+            <div
+              class="px-3 py-1 bg-fuchsia-500 text-xs inline-block rounded-full text-white"
+            >
+              10% Off
+            </div>
+            <div
+              class="px-3 py-1 bg-rose-500 text-xs inline-block rounded-full text-white"
+            >
+              Gaming
+            </div>
+          </div>
+          <!-- Description -->
+          <div class="text-2xl font-medium max-w-sm">
+            Raze4r Kraken Kitty Edt Gaming Headset Quartz Pink
+          </div>
+          <div>
+            <p class="line-through text-gray-600 font-medium">$799</p>
+            <p class="text-gray-900 text-4xl font-bold">$599</p>
+            <p class="text-sm font-light text-gray-400 my-2">
+              This offer is valid until April 3rd or as long as stock lasts!
+            </p>
+          </div>
+
+          <!-- Button Container -->
+          <div class="flex flex-col space-y-4 group">
+            <button
+              class="w-full transition-all duration-150 bg-blue-700 text-white border-b-8 rounded-lg border-b-blue-700 group-hover:bg-blue-700 group-hover:border-t-8 group-hover:border-b-0  group-hover:border-t-blue-700 group-hover:shadow-lg cursor-pointer"
+            >
+              <div class="px-8 py-4 duration-150 bg-blue-500 rounded-lg group-hover:bg-blue-700">
+                Buy Now
+              </div>
+            </button>
+            
+        </div>
+
+        <!-- Stock Container -->
+         <div class="flex items-center space-x-3 group">
+          <div class="w-3 h-3 bg-green-400 rounded-full group-hover:animate-ping">
+          </div>
+          <div class="text-sm">50+ pcs. in stock</div>
+         </div>
+
+         <!-- Bottom button container -->
+          <div class="flex space-y-4 flex-col md:flex-row md:space-x-4 md:space-y-0">
+            <button class="flex items-center justify-center py-3 px-5 space-x-3 border-2 border-gray-300 rounded-lg shadow-sm hover:bg-opacity-30 hover:shadow-lg hover:-translate-y-0.5 transition-all duration-150">
+              <img src="image/weight.png" alt="" class="w-8">
+              <span>Add to cart</span>
+            </button>
+            <button class="flex items-center justify-center py-3 px-5 space-x-3 border-2 border-gray-300 rounded-lg shadow-sm hover:bg-opacity-30 hover:shadow-lg hover:-translate-y-0.5 transition-all duration-150">
+              <img src="image/heart.png" alt="" class="w-8">
+              <span>Add to wishlist</span>
+            </button>
+          </div>
+      </div>
+    </div>
+  </body>
+</html>
